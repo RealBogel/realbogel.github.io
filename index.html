@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Tristan Suwito — Informatics student focused on data science and software engineering.">
+  <meta name="theme-color" content="#f8f9fc">
+  <title>Tristan Suwito — Data & Software Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="#top" aria-label="Tristan Suwito, back to top">Tristan Suwito<span class="brand-dot">.</span></a>
+      <nav aria-label="Main navigation" class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="top" aria-labelledby="hero-heading">
+      <div class="hero-text">
+        <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Informatics student · University of Washington</div>
+        <h1 id="hero-heading">Building useful things <span>with data.</span></h1>
+        <p class="hero-description">I'm an Informatics student focused on data science and software engineering. I enjoy turning complex data into meaningful insights and building practical, user-friendly tools.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="button button-primary">Explore my projects <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/RealBogel" target="_blank" rel="noopener noreferrer" class="button button-secondary">My GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="hero-note">Python · SQL · Machine Learning · Data Visualization</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-board">
+          <div class="art-top"><i></i><i></i><i></i><span>project_overview.py</span></div>
+          <div class="art-code"><span class="code-muted"># From data to decisions</span><br><span class="code-purple">def</span> <span class="code-dark">build_something</span>(data):<br>&nbsp;&nbsp;insights = <span class="code-blue">analyze</span>(data)<br>&nbsp;&nbsp;<span class="code-purple">return</span> <span class="code-blue">make_impact</span>(insights)</div>
+          <div class="chart-title">Explore, model, visualize</div>
+          <div class="chart" aria-hidden="true"><span style="height:29%"></span><span style="height:42%"></span><span style="height:37%"></span><span style="height:58%"></span><span style="height:50%"></span><span style="height:76%"></span><span style="height:88%"></span></div>
+          <div class="chart-baseline"></div>
+        </div>
+        <div class="float-card"><span class="float-symbol">✦</span> Data + design + engineering</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-heading"><div><p class="kicker">01 / Selected work</p><h2 id="projects-heading">Featured projects<span class="heading-period">.</span></h2></div><p>A few projects that show how I approach real problems, from data pipelines to full-stack applications.</p></div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="card-top"><div class="project-symbol symbol-blue" aria-hidden="true">↗</div><span class="project-type">Machine learning · Full stack</span></div>
+            <h3>Flight Delay Predictor</h3>
+            <p>Built a web application that predicts flight delays using historical flight records, weather data, and an XGBoost model, with a Django backend and React frontend.</p>
+            <div class="tags"><span>Python</span><span>XGBoost</span><span>Django</span><span>React</span></div>
+            <a href="https://github.com/RealBogel/flight-delay-predictor" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Flight Delay Predictor repository">View project <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="card-top"><div class="project-symbol symbol-green" aria-hidden="true">≋</div><span class="project-type">Data visualization · Equity</span></div>
+            <h3>Transportation Inequality Explorer</h3>
+            <p>Created interactive visualizations of transportation access and inequality in King County using location-based indicators and neighborhood comparisons.</p>
+            <div class="tags"><span>Observable</span><span>Vega-Lite</span><span>Data analysis</span></div>
+            <a href="https://observablehq.com/d/55aa47a811345dfc" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Transportation Inequality Explorer repository">View project <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="card-top"><div class="project-symbol symbol-orange" aria-hidden="true">▥</div><span class="project-type">Data engineering · Analytics</span></div>
+            <h3>E-Commerce Analytics Warehouse</h3>
+            <p>Designed a PostgreSQL star schema and Python data pipeline for e-commerce data, then built a Tableau dashboard to explore revenue, orders, and customer trends.</p>
+            <div class="tags"><span>PostgreSQL</span><span>Python</span><span>ETL</span><span>Tableau</span></div>
+            <a href="https://github.com/RealBogel/ecommerce-data-warehouse" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="E-Commerce Analytics Warehouse repository">View project <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="project-card">
+            <div class="card-top">
+              <div class="project-symbol symbol-green" aria-hidden="true">◈</div>
+              <span class="project-type">Data analysis · Sustainability</span>
+            </div>
+            <h3>U.S. Energy & Temperature Analysis</h3>
+            <p>Analyzed U.S. energy consumption and temperature trends across states from 2010–2014 using R. Created regional and geographic visualizations to explore relationships between climate and energy usage.</p>
+            <div class="tags">
+              <span>R</span>
+              <span>Tidyverse</span>
+              <span>ggplot2</span>
+              <span>Data visualization</span>
+            </div>
+            <a href="https://github.com/RealBogel/us-energy-temperature-analysis"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              aria-label="U.S. Energy & Temperature Analysis repository">
+              View project <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section" aria-labelledby="about-heading">
+      <div class="container about-grid">
+        <div><p class="kicker">02 / About me</p><h2 id="about-heading">Curious about the <em>why</em> behind the numbers.</h2><p class="about-copy">I'm pursuing a B.S. in Informatics with a Data Science option at the University of Washington, with an expected graduation in 2028. My interests span analytics, machine learning, data engineering, and accessible technology.</p><p class="about-copy">I bring both technical experience and an attention to usability and accessibility to the projects I work on.</p></div>
+        <div class="about-side">
+          <div class="side-panel"><h3>Tools & technologies</h3><div class="skill-group"><span>Python</span><span>SQL</span><span>R</span><span>PostgreSQL</span><span>pandas</span><span>scikit-learn</span><span>React</span><span>Django</span><span>Tableau</span><span>Git</span></div></div>
+          <div class="side-panel"><h3>Experience</h3><div class="experience"><p class="experience-role">Document Accessibility Assistant</p><p>UW Information Technology · 2026–Present</p></div><div class="experience"><p class="experience-role">EdTech Accessibility Intern</p><p>BoomLearning · 2025</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-content"><div><p class="kicker kicker-light">03 / Get in touch</p><h2 id="contact-heading">Let's build something meaningful.</h2><p>I'm interested in opportunities in data science, data engineering, and software development. I'd love to connect.</p></div><div class="contact-actions"><a class="button button-light" href="mailto:suwitotristan@gmail.com">Email me <span aria-hidden="true">↗</span></a><a class="contact-link" href="https://www.linkedin.com/in/tristan-suwito/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><span>© <span id="year">2026</span> Tristan Suwito</span><span>Made with HTML & CSS · Hosted on GitHub Pages</span></div></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
